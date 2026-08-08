@@ -41,7 +41,7 @@ cargo run
 3. rustc        compiler
 4. rustlings    learning app
 
-## 2. Creating Project with Cargo
+## 2. Project with Cargo
 
 - cargo new:
 
@@ -85,7 +85,7 @@ edition = "2024"
 
 Packages of code -> crates
 
-## 3. Build and Run a Cargo Project
+### Recap of Build and Run a Cargo Project
 
 - cargo new:
     * create a project with directory
@@ -105,3 +105,11 @@ Packages of code -> crates
     * often faster than cargo build
     * skips producing an executable
     * check code
+
+## 3. Rustc
+
+Compile & Run the generated executable file:
+
+```bash
+rustc file.rs
+```
